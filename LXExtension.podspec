@@ -9,8 +9,8 @@
 Pod::Spec.new do |s|
   #库的名字
   s.name             = 'LXExtension'
-  #版本号，当私有库需要更新的时候只要修改这个值
-  s.version          = '1.0.0'
+  #版本号，当私有库需要更新的时候只要修改这个值,并对远程增加对应版本的tag
+  s.version          = '1.0.2'
   #库的简介，pod search 显示在上面的介绍
   s.summary          = '就是一个测试'
 
@@ -61,5 +61,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   
   #需要依赖的三方库
-   s.dependency 'MBProgressHUD'
+   s.dependency 'MBProgressHUD',  '~> 1.2.0'
 end
