@@ -112,7 +112,7 @@ public extension MBProgressHUD{
             }
         }
         
-        var window = UIApplication.shared.keyWindow
+        let window = UIApplication.shared.keyWindow
         
         return window!
     }

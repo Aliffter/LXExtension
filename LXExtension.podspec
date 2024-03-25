@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
   #库的名字
   s.name             = 'LXExtension'
   #版本号，当私有库需要更新的时候只要修改这个值
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   #库的简介，pod search 显示在上面的介绍
-  s.summary          = 'A short description of LXExtension.'
+  s.summary          = '就是一个测试'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -26,14 +26,14 @@ TODO: Add long description of the pod here.
                        DESC
   
   #主页地址，pod search 会显示，一般填写仓库的地址就行了
-  s.homepage         = 'https://github.com/xxxx/LXExtension'
+  s.homepage         = 'https://github.com/Aliffter/LXExtension'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   #开源协议，项目文件目录下需要有一个MIT开源协议文件，创建的时候默认就创建了这个，具体内容可以打开 LICENSE 查看
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   #作者名字、邮箱
-  s.author           = { 'xxx' => 'xxxxxxx@163.com' }
+  s.author           = { 'leo' => 'zhaolongxiao1991@163.com' }
   #资源地址，pod install 的时候会根据这个地址去下载你的想要库，以及下载的版本，必须要跟s.version一致。
-  s.source           = { :git => 'https://github.com/xxxx/LXExtension.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Aliffter/LXExtension.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   #库最低支持的系统版本
   s.ios.deployment_target = '11.0'
